@@ -108,12 +108,11 @@ video {
     margin: 60px;
     animation: flowerGrow 3s infinite ease-in-out;
 }
-
 .petal {
     position: absolute;
     width: 30px;
     height: 60px;
-    background-color: pink;
+    background-color: rgb(253, 228, 3);
     border-radius: 50%;
     transform-origin: center;
 }
