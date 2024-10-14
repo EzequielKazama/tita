@@ -32,6 +32,7 @@ h1 {
 .intro p {
     font-size: 30px;
     animation: fadeIn 2s ease-in-out;
+    color: #ff69b4;
 }
 
 .Imagen_Principal .contenedor-imagen img {
@@ -108,6 +109,7 @@ video {
     margin: 60px;
     animation: flowerGrow 3s infinite ease-in-out;
 }
+
 .petal {
     position: absolute;
     width: 30px;
@@ -152,13 +154,15 @@ video {
     transform: translate(-50%, -50%);
 }
 
-footer {
+.footer {
     background-color: #ff69b4;
+    font-size: 25px;
     color: white;
     padding: 20px;
     position: relative;
-    bottom: 0;
+    bottom: -25px;
     width: 100%;
+
 }
 
 @keyframes fadeIn {
@@ -248,4 +252,12 @@ footer {
         width: 10px;
         height: 10px;
     }
+}
+.post-img{
+    font-size: 25px;
+    color: rgb(255, 49, 241);
+}
+.msj-flores{
+    font-size: 30px;
+    color: darkred;
 }
